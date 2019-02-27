@@ -30,8 +30,10 @@ print(list4[0].title(), list4[0].lower(), list4[0].upper())
 
 list6 = ['a', 'd', 'E', 'g', 'F']
 print(list6)
-print(list6.sort())
-print(list6.reverse())
+list6.sort()
+print(list6)
+list6.reverse()
+print(list6)
 
 for item in list6:
     print(item)

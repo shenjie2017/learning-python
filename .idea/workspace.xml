@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5255a635-381d-4b91-814d-5a8663dc295e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-python.iml" afterDir="false" />
+    <list default="true" id="5255a635-381d-4b91-814d-5a8663dc295e" name="Default" comment="调整了python的编码风格，添加了list的一些用法">
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/animal_testcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/golden.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/open_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test02.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,47 +19,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/learning_python$list.coverage" NAME="list Coverage Results" MODIFIED="1551062114029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-    <SUITE FILE_PATH="coverage/learning_python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1531456533771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-    <SUITE FILE_PATH="coverage/learning_python$function.coverage" NAME="function Coverage Results" MODIFIED="1531469771848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$Unittests_for_animal_testcase_MyTestCase.coverage" NAME="Unittests for animal_testcase.MyTestCase Coverage Results" MODIFIED="1551232155220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$Unittests_for_animal_testcase_MyTestCase_test_get_type.coverage" NAME="Unittests for animal_testcase.MyTestCase.test_get_type Coverage Results" MODIFIED="1551232286812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
     <SUITE FILE_PATH="coverage/learning_python$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1531453585699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
     <SUITE FILE_PATH="coverage/learning_python$if.coverage" NAME="if Coverage Results" MODIFIED="1551061997387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-    <SUITE FILE_PATH="coverage/learning_python$module_b.coverage" NAME="module_b Coverage Results" MODIFIED="1531471483984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-    <SUITE FILE_PATH="coverage/learning_python$for.coverage" NAME="for Coverage Results" MODIFIED="1551061144533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$Unittests_in_AnimalTestCase_py.coverage" NAME="Unittests in animal_testcase.py Coverage Results" MODIFIED="1551232274527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
     <SUITE FILE_PATH="coverage/learning_python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1531452575495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python" />
     <SUITE FILE_PATH="coverage/learning_python$set.coverage" NAME="set Coverage Results" MODIFIED="1531457728511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-    <SUITE FILE_PATH="coverage/learning_python$dict.coverage" NAME="dict Coverage Results" MODIFIED="1551061105028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$save_date.coverage" NAME="save_date Coverage Results" MODIFIED="1551233457159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
     <SUITE FILE_PATH="coverage/learning_python$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1551062128486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
     <SUITE FILE_PATH="coverage/learning_python$module_a.coverage" NAME="module_a Coverage Results" MODIFIED="1531470584260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$open_file.coverage" NAME="open_file Coverage Results" MODIFIED="1551233217627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$save_data.coverage" NAME="save_data Coverage Results" MODIFIED="1551234295337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$list.coverage" NAME="list Coverage Results" MODIFIED="1551233732127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1531456533771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$function.coverage" NAME="function Coverage Results" MODIFIED="1531469771848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$module_b.coverage" NAME="module_b Coverage Results" MODIFIED="1531471483984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$for.coverage" NAME="for Coverage Results" MODIFIED="1551061144533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+    <SUITE FILE_PATH="coverage/learning_python$dict.coverage" NAME="dict Coverage Results" MODIFIED="1551061105028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="471467991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="dat" value="3" />
+          <entry key="json" value="7" />
+          <entry key="py" value="25" />
+          <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="25" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="631" />
+          <entry key="dat" value="98" />
+          <entry key="dummy" value="7" />
+          <entry key="py" value="1768" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="631" />
+          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="Python" value="1768" />
         </counts>
       </usages-collector>
     </session>
@@ -70,91 +84,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_a.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/animal_testcase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1551232286721" expanded="true" signature="147:153" ph="..." />
+                <marker date="1551232286721" expanded="true" signature="169:251" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/open_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test03.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/develop/python/Python37/Lib/json/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="293">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/2049853714/builtins.py">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/golden.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="3676" column="8" selection-start-line="3676" selection-start-column="8" selection-end-line="3676" selection-end-column="8" />
+            <state relative-caret-position="133">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <marker date="1551232155163" expanded="true" signature="63:68" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py">
+        <entry file="file://D:/develop/python/Python37/Lib/json/encoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="281">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test02.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="19">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/set.py">
+        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test01.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -164,6 +186,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -186,11 +210,25 @@
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py" />
-        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/set.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py" />
         <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_a.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/AnimalTestCase.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/Golden.pyi" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/Dog.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/Golden.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dog.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/golden.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/a.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/animal_testcase.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test.dat" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test02.dat" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test01.dat" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/open_file.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_date.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py" />
+        <option value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_data.py" />
       </list>
     </option>
   </component>
@@ -275,7 +313,13 @@
       </console-settings>
     </option>
   </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\learning-python\python-syntax\com\blue\python\syntax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\learning-python\python-syntax\com\blue\python\syntax" />
     </key>
@@ -292,73 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tuple">
-    <configuration name="dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learning-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="for" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learning-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="if" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="learning-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.save_data">
     <configuration name="list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -366,9 +344,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\code\learning-python\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -381,7 +359,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="open_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learning-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -394,7 +372,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/open_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,20 +381,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="save_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save_date" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learning-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\learning-python\python-syntax\com\blue\python\syntax\save_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for animal_testcase.MyTestCase.test_get_type" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="learning-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-syntax/com/blue/python/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;animal_testcase.MyTestCase.test_get_type&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python tests.Unittests for animal_testcase.MyTestCase.test_get_type" />
+      <item itemvalue="Python.open_file" />
+      <item itemvalue="Python.save_date" />
+      <item itemvalue="Python.save_data" />
       <item itemvalue="Python.list" />
-      <item itemvalue="Python.dict" />
-      <item itemvalue="Python.for" />
-      <item itemvalue="Python.if" />
-      <item itemvalue="Python.tuple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tuple" />
+        <item itemvalue="Python.save_data" />
         <item itemvalue="Python.list" />
-        <item itemvalue="Python.if" />
-        <item itemvalue="Python.for" />
-        <item itemvalue="Python.dict" />
+        <item itemvalue="Python.save_date" />
+        <item itemvalue="Python.open_file" />
+        <item itemvalue="Python tests.Unittests for animal_testcase.MyTestCase.test_get_type" />
       </list>
     </recent_temporary>
   </component>
@@ -445,8 +482,44 @@
       <option name="project" value="LOCAL" />
       <updated>1531466545652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整了python的编码风格，添加了list的一些用法">
+      <created>1551062651835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551062651835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_AnimalTestCase_py - 2019.02.27 at 09h 25m 19s.xml">
+      <configuration name="Unittests in AnimalTestCase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_animal_testcase_py - 2019.02.27 at 09h 47m 37s.xml">
+      <configuration name="Unittests in animal_testcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_animal_testcase_MyTestCase - 2019.02.27 at 09h 48m 28s.xml">
+      <configuration name="Unittests for animal_testcase.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_animal_testcase_py - 2019.02.27 at 09h 48m 47s.xml">
+      <configuration name="Unittests in animal_testcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_animal_testcase_MyTestCase - 2019.02.27 at 09h 49m 16s.xml">
+      <configuration name="Unittests for animal_testcase.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_animal_testcase_MyTestCase_test_get_type - 2019.02.27 at 09h 50m 52s.xml">
+      <configuration name="Unittests for animal_testcase.MyTestCase.test_get_type" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_animal_testcase_py - 2019.02.27 at 09h 51m 00s.xml">
+      <configuration name="Unittests in animal_testcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_animal_testcase_py - 2019.02.27 at 09h 51m 15s.xml">
+      <configuration name="Unittests in animal_testcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_animal_testcase_MyTestCase_test_get_type - 2019.02.27 at 09h 51m 27s.xml">
+      <configuration name="Unittests for animal_testcase.MyTestCase.test_get_type" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,21 +532,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39804772" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" visible="true" weight="0.38069415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33766234" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32946146" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.39804772" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49791667" weight="0.3206934" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -512,13 +586,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="添加了python基础语法的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了python基础语法的代码" />
+    <MESSAGE value="调整了python的编码风格，添加了list的一些用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整了python的编码风格，添加了list的一些用法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -571,75 +656,191 @@
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/for.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/if.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/2049853714/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="3676" column="8" selection-start-line="3676" selection-start-column="8" selection-end-line="3676" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/set.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py">
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/tuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_a.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/Golden.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/module_b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dog.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/develop/python/Python37/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/develop/python/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1491" column="8" selection-start-line="1491" selection-start-column="8" selection-end-line="1491" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/2049853714/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/animal_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551232286721" expanded="true" signature="147:153" ph="..." />
+            <marker date="1551232286721" expanded="true" signature="169:251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test01.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test02.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/open_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/golden.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <marker date="1551232155163" expanded="true" signature="63:68" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="293">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test04.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/develop/python/Python37/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/develop/python/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/test03.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-syntax/com/blue/python/syntax/save_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
